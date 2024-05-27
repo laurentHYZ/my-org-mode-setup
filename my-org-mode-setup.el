@@ -6,3 +6,4 @@
   (message "let's go!")
   (sit-for 2))
 (global-set-key (kbd "C-c o") 'my-org-mode-setup)
+(add-hook 'org-mode-hook #'my-org-mode-setup)
